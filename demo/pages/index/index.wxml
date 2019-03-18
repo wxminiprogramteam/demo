@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <input class="search" placeholder='搜索'/>
+  </view>
+  <scroll-view class="main">
+    <text class="main-caption">近期讲座</text>
+    <navigator
+      wx:for="{{list}}"
+      wx:key="{{item.id}}"
+      open-type="navigate"    
+      url='/pages/post/post?id={{item.id}}'    
+    >
+      <view class="activity">
+        <image class="activity-img" src="{{item.imgUrl}}"></image>
+        <view class="activity-text-box">
+          <text class="activity-text-caption">{{item.caption}}</text>
+          <text class="activity-text-content">{{item.content}}</text>
+        </view>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>

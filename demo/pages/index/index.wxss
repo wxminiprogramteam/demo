@@ -1,0 +1,38 @@
+/**index.wxss**/
+.search{
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 30rpx;
+  padding: 5rpx 10rpx;
+  margin: 30rpx 0rpx;
+}
+
+.main{
+  width: 100%;
+}
+.main-caption{
+  margin: 10rpx 10rpx;
+}
+.activity{
+  display: flex;
+  width: 90%;
+  height: 200rpx;
+  margin: 0px 5%;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.activity-img{
+  width: 120rpx;
+  height: 120rpx;
+}
+.activity-text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 50rpx;
+}
+.activity-text-caption{
+  font-size: 50rpx;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+<!--pages/post/post.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="header-caption">{{item.caption}}</text>
+    <text>{{item.time}}</text>
+    <text>{{item.place}}</text>
+  </view>
+  <view>
+  {{item.content}}
+  </view>
+</view>
