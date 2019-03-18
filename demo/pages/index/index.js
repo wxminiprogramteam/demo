@@ -6,34 +6,34 @@ Page({
   data: {
     list:[
       {
-        id: "1",
+        id: "1",  
         imgUrl: "../../images/orientation.png",
-        caption: "caption1",
-        content: "content1",
+        caption: "高校小程序大赛讲座",
+        content: "了解小程序大赛相关事宜",
       },
       {
         id: "2",
         imgUrl: "../../images/pencil.png",
-        caption: "caption2",
-        content: "content2",
+        caption: "志愿梦·中国梦，共筑青春梦",
+        content: "志愿者通识培训",
       },
       {
         id: "3",
         imgUrl: "../../images/school_bus.png",
-        caption: "caption3",
-        content: "content3",
+        caption: "枪林弹雨中成长",
+        content: "华为全国巡回公益讲座",
       },
       {
         id: "4",
         imgUrl: "../../images/set_square.png",
-        caption: "caption4",
-        content: "content4",
+        caption: "学而思网校宣讲会",
+        content: "了解学而思网校",
       },
       {
         id: "5",
         imgUrl: "../../images/studies.png",
-        caption: "caption5",
-        content: "content5",
+        caption: "曙光基金宣讲会",
+        content: "助学筑梦，曙光基金助你前行",
       },
 
     ]
